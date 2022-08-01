@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>arazon</title>
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../css/cart.css">
+</head>
+<body>
+  <header>
+    <div class="header_inner">
+      <a href="index.html" class="header_logo">
+        <img src="../img/Amazon-logo-RGB.png" alt="ロゴ画像">
+      </a>
+      <nav class="header_nav">
+        <ul>
+          <li><a href="#">ログイン</a></li>
+          <li class="cart_logo"><a href="cart.html"><img src="../img/cart.png" alt="カート画像"></a></li>
+          <li class="cart_number"><a href="cart.html">1</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="cart_block">
+      <div class="cart_block_left">
+        <div class="cart_product">
+          <h1>ショッピングカート<small>価格</small></h1>
+          <div class="cart_product_detail">
+            <a class="cart_product_img" href="product_detail.html">
+              <img src="../img/fusigidane.png" alt="フシギダネ画像">
+            </a>
+            <div class="cart_product_name">
+              <a href="product_detail.html">
+                <p class="product_name">フシギダネ</p>
+              </a>
+              <div class="cart_btn_left">
+                <p>数量</p>
+                <select class="dawn" name="subject" required="required">
+                  <optgroup value>
+                    <option class="select_with" value="数量">1</option>
+                    <option class="select_with" value="数量">2</option>
+                    <option class="select_with" value="数量">3</option>
+                    <option class="select_with" value="数量">4</option>
+                    <option class="select_with" value="数量">5</option>
+                  </optgroup>
+                </select>
+                <a href="#" class="delete">削除</a>
+              </div>
+            </div>
+            <p class="product_price">¥1000</p>
+          </div>
+        </div>
+      </div>
+      <div class="cart_block_right">
+        <p>小計(1個の商品)</p>
+        <p>￥1000</p>
+        <div class="btn cart_btn">
+          <a href="form.html">レジに進む</a>
+          <a href="index.html">戻る</a>
+        </div>
+      </div>
+    </div>
+    <div class="cart_block_sum">
+      <p>小計 (1 個の商品) (税込) :<strong>¥1000</strong></p>
+    </div>
+  </main>
+  <footer>
+    <div class="footer_inner">
+      <a href="index.html" class="footer_logo">
+        <img src="../img/Amazon-logo-RGB.png" alt="ロゴ画像">
+      </a>
+      <p class="footer_txt">©team7.All Right Reserved.</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+</body>
+
+</html>

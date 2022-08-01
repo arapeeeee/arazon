@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>arazon</title>
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../css/form.css">
+</head>
+<body>
+  <header>
+    <div class="header_inner">
+      <a href="index.html" class="header_logo">
+        <img src="../img/Amazon-logo-RGB.png" alt="ロゴ画像">
+      </a>
+      <nav class="header_nav">
+        <ul>
+          <li><a href="#">ログイン</a></li>
+          <li class="cart_logo"><a href="cart.html"><img src="../img/cart.png" alt="カート画像"></a></li>
+          <li class="cart_number"><a href="cart.html">1</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="form_block">
+      <form action="#" class="contact_form" method="#">
+          <div class="contact_box">
+            <label for="name" class="contact_form_ttl">お名前</label>
+            <input type="text" class="contact_form_box" name="name" placeholder="例）田中　太郎" required="required">
+          </div>
+          <div class="contact_box">
+            <label for="email" class="contact_form_ttl">メールアドレス</label>
+            <input type="text" class="contact_form_box" name="email" placeholder="例）example@example.com" required="required">
+          </div>
+          <div class="contact_box">
+            <label for="tel" class="contact_form_ttl">電話番号</label>
+            <input type="text" class="contact_form_box" name="tel" placeholder="例）080-1111-1111" required="required">
+          </div>
+          <div class="contact_box">
+            <label for="message" class="contact_form_ttl">クレジットカード番号</label>
+            <input type="text" class="contact_form_box" name="credit" placeholder="例）0123-4567-8910" required="required">
+          </div>
+          <div class="btn contact_btn">
+            <a type="submit">送信</a>
+            <a href="#">戻る</a>
+        </form>
+      </div>
+  </main>
+  <footer>
+    <div class="footer_inner">
+      <a href="index.html" class="footer_logo">
+        <img src="../img/Amazon-logo-RGB.png" alt="ロゴ画像">
+      </a>
+      <p class="footer_txt">©team7.All Right Reserved.</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+</body>
